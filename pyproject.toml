@@ -18,7 +18,7 @@ sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'FIRSTPARTY', 'LOCALFOLDER']
 
 [tool.poetry]
 name = "command-builder"
-version = "0.1.0"
+version = "0.1.1"
 description = "Summary shell commands execution"
 authors = ["Guilherme Righetto <guilhermerighetto02@gmail.com>"]
 license = "MIT License"
