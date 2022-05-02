@@ -1,6 +1,6 @@
 """Module with run CI pipeline."""
 
-from command_builder.command_builder import CommandBuilder
+from command_builder import CommandBuilder
 
 
 def main():
