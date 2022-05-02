@@ -1,7 +1,5 @@
 """Module for testinig the CommandBuilder."""
 
-import pytest
-
 
 def test_add(command_builder):
     """Test the add method."""

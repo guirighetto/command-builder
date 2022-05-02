@@ -1,6 +1,6 @@
 import pytest
 
-from command_builder.command_builder import CommandBuilder
+from command_builder import CommandBuilder
 
 
 @pytest.fixture(scope="session")

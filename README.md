@@ -9,7 +9,7 @@ Command Builder is a library that manages the execution of shell commands, creat
 From the terminal, enter:
 
 ```bash
-pip install -U command-builder
+pip install command-builder
 ```
 
 ## Getting started
