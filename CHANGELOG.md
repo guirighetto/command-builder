@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2] - 2022-05-17
+### Added
+- The `run` method returns the exit code of the executed commands
+
 ## [0.1.1] - 2022-05-02
 ### Changed
 - Library import is now `from command_builder import CommandBuilder` instead of `from command_builder.command_builder import CommandBuilder`.
