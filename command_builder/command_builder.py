@@ -44,8 +44,12 @@ class CommandBuilder:
     def run(self, summary: bool = True):
         """Run commands and print summary."""
 
+        exit_code = 0
         for command in self.commands.values():
             command["returncode"] = self._run_command(command["command"])
+            exit_code += command["returncode"]
 
         if summary:
             self._print_summary()
+
+        raise SystemExit(exit_code)
