@@ -14,7 +14,7 @@ pip install command-builder
 
 ## Getting started
 
-> The examples refer to the newest version (0.1.0) of command-builder.
+> The examples refer to the newest version (0.1.2) of command-builder.
 
 First, let's init the command-builder:
 
