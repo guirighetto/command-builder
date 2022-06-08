@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.3] - 2022-06-07
+### Changed
+- Support for python 3.6.2
+
+
 ## [0.1.2] - 2022-05-17
 ### Added
 - The `run` method returns the exit code of the executed commands

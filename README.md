@@ -4,7 +4,7 @@ Command Builder is a library that manages the execution of shell commands, creat
 
 ## Installation
 
-> You need Python 3.7 or above.
+> You need Python 3.6.2 or above.
 
 From the terminal, enter:
 
@@ -14,7 +14,7 @@ pip install command-builder
 
 ## Getting started
 
-> The examples refer to the newest version (0.1.2) of command-builder.
+> The examples refer to the newest version (0.1.3) of command-builder.
 
 First, let's init the command-builder:
 
