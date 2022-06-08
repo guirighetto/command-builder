@@ -18,7 +18,7 @@ sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'FIRSTPARTY', 'LOCALFOLDER']
 
 [tool.poetry]
 name = "command-builder"
-version = "0.1.2"
+version = "0.1.3"
 description = "Summary shell commands execution"
 authors = ["Guilherme Righetto <guilhermerighetto02@gmail.com>"]
 license = "MIT License"
@@ -32,13 +32,13 @@ packages = [
 pipeline = "ci_pipeline:main"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6.2"
 
 [tool.poetry.dev-dependencies]
-pytest = "^7.1.2"
 black = "^22.3.0"
-pylint = "^2.13.7"
-mypy = "^0.950"
+pytest = "^7.0.1"
+pylint = "^2.13.9"
+mypy = "^0.961"
 pytest-cov = "^3.0.0"
 
 [build-system]
