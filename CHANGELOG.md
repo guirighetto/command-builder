@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0] - 2026-05-17
+### Added
+- `verbose` parameter in `CommandBuilder(verbose=True)` to control output mode
+- When `verbose=False`, captures stdout/stderr and prints only the summary with failed command output inline
+### Changed
+- Requires Python 3.11+
+- Docstrings converted to Google format
+
 ## [0.1.3] - 2022-06-07
 ### Changed
 - Support for python 3.6.2
